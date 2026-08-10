@@ -23,11 +23,11 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (context) => CoffeeStateManagement()),
       ],
       child: MaterialApp(
-        title: 'Flutter Summer CSE464 class',
+        title: 'The Brew Archive',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.brown),
         ),
-        home: HomePage(pageTitle: "Welcome to CSE464!"),
+        home: HomePage(pageTitle: "Welcome to The Brew Archive!"),
       ),
     );
   }
